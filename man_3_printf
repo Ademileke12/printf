@@ -4,7 +4,7 @@
 .B _printf
 - formatted output conversion
 .SH SYNOPSIS
-.B #include \(dqholberton.h\(dq
+.B #include \(dqmain.h\(dq
 .sp
 .B int _printf(const char *
 .I format
@@ -100,4 +100,4 @@ That way, _putchar only needs to call write one time, passing to it the whole bu
 .SH BUGS
 _printf does not take care of length and precision modifiers yet. For example, _printf(\(dq%hx\(dq) will not produce the same output as the call to the standard library printf.
 .SH AUTHORS
-Beryl Wawuda and Ademileke abudu Opeyemi
+wawudab and Ademileke12
